@@ -3,5 +3,8 @@
 namespace Configuration\Parser;
 
 interface ParserInterface {
-    //put your code here
+   
+    public function addFile($file);
+    
+    public function getData();
 }
